@@ -1,0 +1,8 @@
+.DS_Store
+.env
+*.log
+
+# Build outputs
+4jawaly-cli
+dist/
+bin/
