@@ -284,6 +284,7 @@ func runSMSBalance(args []string) error {
 		return err
 	}
 	req.Header.Set("Authorization", basicAuthHeader(cfg.AppKey, cfg.APISecret))
+	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("Accept", "application/json")
 
 	resBody, status, err := doRequest(req)
@@ -319,6 +320,7 @@ func runSMSSenders(args []string) error {
 		return err
 	}
 	req.Header.Set("Authorization", basicAuthHeader(cfg.AppKey, cfg.APISecret))
+	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("Accept", "application/json")
 
 	resBody, status, err := doRequest(req)
