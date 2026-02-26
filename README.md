@@ -1,4 +1,4 @@
-# 4Jawaly CLI (Send-Only)
+# 4Jawaly CLI (Send-bulk sms & whatsapp)
 
 CLI خفيف للإرسال فقط عبر 4Jawaly:
 - SMS
